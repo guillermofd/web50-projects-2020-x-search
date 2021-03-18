@@ -2,14 +2,38 @@
 <html lang="en">
     <head>
         <title>Google Advanced Search</title>
+        <link rel='stylesheet' href='styles.css'>
+         
     </head>
     <body>
-        <div #navbar>
+        <div id = "navbar">
             <a href='index.html'>Google Search</a>
         </div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <div style='margin-bottom: 25px;'>
+            <b style='font-size: large;'>Find pages with...</b>
+        </div>
+        <form class='advanced' action="https://google.com/search">
+            <div class='entrada'>all these words: </div>
+            <div>
+                <input class='entr' type="text" name="as_q">
+            </div>
+            <div class='entrada'>this exact word or phrase: </div>
+            <div>
+                <input class='entr' type="text" name="as_epq">
+            </div>
+            <div class='entrada'>any of these: </div>
+            <div>
+                <input class='entr' type="text" name="as_oq">
+            </div>
+            <div class='entrada'>none of these words: </div>
+            <div>
+                <input class='entr' type="text" name="as_eq">
+            </div>
+
+
+
+            <div><input id='avanzado' type="submit" value="Google Advanced Search"></div>
+            
         </form>
     </body>
 </html>

@@ -1,0 +1,36 @@
+#navbar{
+    height: 40px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+form{
+    text-align: center;
+}
+
+a{
+    margin-left: 10px;
+}
+
+#texto{
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.advanced{
+    text-align: left;
+}
+.entrada{
+    width: 200px;
+    float:left;
+    margin-bottom: 10px;
+}
+.entr{
+    width: 500px;
+    margin-bottom: 10px;
+}
+#avanzado{
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border: none;
+}

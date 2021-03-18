@@ -2,14 +2,19 @@
 <html lang="en">
     <head>
         <title>Google Image Search</title>
+        <link rel='stylesheet' href='styles.css'>
+         
     </head>
     <body>
-        <div #navbar>
+        <div id = "navbar">
             <a href='index.html'>Google Search</a>
         </div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <form action="https://images.google.com/search">
+            <input id='texto' type="text" name="q">
+            <input name="tbm" type='hidden' value='isch'>
+            <div>
+                <input type="submit" value="Google Image Search">
+            </div>
         </form>
     </body>
 </html>
